@@ -1,9 +1,9 @@
-use crate::stream::AsLockedWrite;
-use crate::stream::RawStream;
 use crate::ColorChoice;
 use crate::StripStream;
 #[cfg(all(windows, feature = "wincon"))]
 use crate::WinconStream;
+use crate::stream::AsLockedWrite;
+use crate::stream::RawStream;
 
 /// [`std::io::Write`] that adapts ANSI escape codes to the underlying `Write`s capabilities
 ///

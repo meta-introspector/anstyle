@@ -1,6 +1,6 @@
-use anstyle_parse::state::state_change;
 use anstyle_parse::state::Action;
 use anstyle_parse::state::State;
+use anstyle_parse::state::state_change;
 
 /// Strip ANSI escapes from a `&str`, returning the printable content
 ///

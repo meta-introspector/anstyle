@@ -5,11 +5,11 @@ mod codegen;
 mod definitions;
 mod table;
 
+pub use definitions::Action;
+pub use definitions::State;
 #[cfg(test)]
 pub(crate) use definitions::pack;
 pub(crate) use definitions::unpack;
-pub use definitions::Action;
-pub use definitions::State;
 
 /// Transition to next [`State`]
 ///

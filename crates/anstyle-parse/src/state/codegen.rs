@@ -1,4 +1,4 @@
-use super::{pack, unpack, Action, State};
+use super::{Action, State, pack, unpack};
 
 use snapbox::file;
 use vte_generate_state_changes::generate_state_changes;

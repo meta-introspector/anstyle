@@ -49,7 +49,7 @@ pub mod state;
 
 pub use params::{Params, ParamsIter};
 
-use state::{state_change, Action, State};
+use state::{Action, State, state_change};
 
 const MAX_INTERMEDIATES: usize = 2;
 const MAX_OSC_PARAMS: usize = 16;

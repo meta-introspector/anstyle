@@ -103,9 +103,9 @@ impl Perform for Strip {
 }
 
 fn strip_str(content: &str) -> String {
-    use anstyle_parse::state::state_change;
     use anstyle_parse::state::Action;
     use anstyle_parse::state::State;
+    use anstyle_parse::state::state_change;
 
     #[inline]
     fn is_utf8_continuation(b: u8) -> bool {
